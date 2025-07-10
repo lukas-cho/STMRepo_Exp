@@ -43,80 +43,73 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --radius: 1rem;
+  --background: #fafbfc;
+  --foreground: #1a202c;
+  --card: #ffffff;
+  --card-foreground: #2d3748;
+  --popover: #ffffff;
+  --popover-foreground: #2d3748;
+  --primary: #16a085;
+  --primary-foreground: #ffffff;
+  --secondary: #f7fafc;
+  --secondary-foreground: #4a5568;
+  --muted: #edf2f7;
+  --muted-foreground: #718096;
+  --accent: #e2e8f0;
+  --accent-foreground: #2d3748;
+  --destructive: #e53e3e;
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #16a085;
+  --chart-1: #16a085;
+  --chart-2: #3182ce;
+  --chart-3: #805ad5;
+  --chart-4: #e53e3e;
+  --chart-5: #d69e2e;
+  --sidebar: #2c5282;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #16a085;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #3182ce;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #4299e1;
+  --sidebar-ring: #16a085;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --background: #1a202c;
+  --foreground: #f7fafc;
+  --card: #2d3748;
+  --card-foreground: #f7fafc;
+  --popover: #2d3748;
+  --popover-foreground: #f7fafc;
+  --primary: #4fd1c7;
+  --primary-foreground: #1a202c;
+  --secondary: #4a5568;
+  --secondary-foreground: #f7fafc;
+  --muted: #4a5568;
+  --muted-foreground: #a0aec0;
+  --accent: #4a5568;
+  --accent-foreground: #f7fafc;
+  --destructive: #fc8181;
+  --border: #4a5568;
+  --input: #4a5568;
+  --ring: #4fd1c7;
+  --chart-1: #4fd1c7;
+  --chart-2: #63b3ed;
+  --chart-3: #b794f6;
+  --chart-4: #fc8181;
+  --chart-5: #f6e05e;
+  --sidebar: #1a365d;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #4fd1c7;
+  --sidebar-primary-foreground: #1a202c;
+  --sidebar-accent: #63b3ed;
+  --sidebar-accent-foreground: #1a202c;
+  --sidebar-border: #3182ce;
+  --sidebar-ring: #4fd1c7;
 }
 
 @layer base {
@@ -125,5 +118,68 @@
   }
   body {
     @apply bg-background text-foreground;
+    background: linear-gradient(135deg, #fafbfc 0%, #f0f8ff 100%);
+  }
+  
+  .dark body {
+    background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  }
+}
+
+@layer components {
+  .financial-card {
+    @apply bg-card border border-border rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6;
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  }
+  
+  .dark .financial-card {
+    background: linear-gradient(145deg, #2d3748 0%, #4a5568 100%);
+  }
+  
+  .financial-button {
+    @apply inline-flex items-center justify-center rounded-xl text-sm font-medium ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+    background: linear-gradient(145deg, #16a085, #38b2ac);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0 4px 12px rgba(22, 160, 133, 0.3);
+  }
+  
+  .financial-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(22, 160, 133, 0.4);
+  }
+  
+  .chart-container {
+    @apply bg-card border border-border rounded-xl shadow-lg p-6;
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  }
+  
+  .dark .chart-container {
+    background: linear-gradient(145deg, #2d3748 0%, #4a5568 100%);
+  }
+  
+  .stats-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6;
+  }
+  
+  .stat-card {
+    @apply financial-card text-center;
+  }
+  
+  .stat-value {
+    @apply text-3xl font-bold text-primary mb-2;
+  }
+  
+  .stat-label {
+    @apply text-muted-foreground text-sm uppercase tracking-wide;
+  }
+  
+  .faq-section {
+    @apply bg-card border border-border rounded-2xl shadow-xl p-8;
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  }
+  
+  .dark .faq-section {
+    background: linear-gradient(145deg, #2d3748 0%, #4a5568 100%);
   }
 }
