@@ -8,6 +8,7 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/mode-toggle";
+import { PageTransition } from "@/components/page-transition";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,7 +49,9 @@ export default function RootLayout({
                 <ModeToggle />
                 <SidebarTrigger />
 
-                {children}
+                <PageTransition>
+                  {children}
+                </PageTransition>
               </main>
             </SidebarProvider>{" "}
             <Footer />
